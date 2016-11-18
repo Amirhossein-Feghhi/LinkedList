@@ -6,7 +6,7 @@ public int indexOf(int element){
 	while(index != null){
 		if(index.data == element){
 			return count;
-		}
+	}
 		else{
 			index = index.next;
 			count++;
